@@ -42,7 +42,7 @@
 <div id="page">
    
 
-    <header class="header">
+     <header class="header">
         <div class="top_panel">
             <div class="container">
 
@@ -53,59 +53,58 @@
                                     class="fa fa-home"></i><span>Home</span>
                             </a>
                         </li>
+                      
+                       
                         <li>
-                            <a href=""
-                               title="Wish List (0)"><i
-                                    class="fa fa-heart"></i> <span>Wish List (0)</span></a>
-                        </li>
-                        <li class="dropdown">
-                            <a href="" title="My Account"
-                               class="dropdown-toggle"
-                               data-toggle="dropdown"><i class="fa fa-user"></i>
-                                <span>My Account</span>
-                                <span class="fa fa-angle-down"></span></a>
-                            <ul class="dropdown-menu dropdown-menu-left">
-                                                                    <li>
-                                        <a href="">Register</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Login</a>
-                                    </li>
-                                                            </ul>
-                        </li>
-                        <li>
-                            <a href=""><i
-                                    class="fa fa-shopping-cart"></i> <span>Shopping Cart</span>
+                            <a href="{{route('contact.us')}}" title="Shopping Cart"><i
+                                    class="fa fa-shopping-cart"></i> <span>Contact us</span>
                             </a>
                         </li>
                         <li>
-                            <a href="" title="Checkout"><i
+                            <a href="{{route('check.out')}}" title="Checkout"><i
                                     class="fa fa-share"></i> <span>Checkout</span></a>
                         </li>
                     </ul>
                 </nav>
                 <div id="search" class="search">
-	<input type="text" name="search" value="" placeholder="Search"  />
-	<button type="button" class="button-search"></button>
-</div>                
+  <input type="text" name="search" value="" placeholder="Search"  />
+  <button type="button" class="button-search"></button>
+</div>                <div class="box-currency">
 
-
-             
+</div>
             </div>
         </div>
 
         <div class="menu-wrap">
             <div class="container">
                 <div id="logo" class="logo">
-                                            <a href="http://phlashtools.com/index.php?route=common/home"><img src="http://phlashtools.com/image/catalog/logo/logo2.png" title="PH LASH TOOLS"
-                                                            alt="PH LASH TOOLS" class="img-responsive"/></a>
+                                            <a href="/">
+                                                
+<img src="{{asset('txtlogo.png')}}" height="50px" width="200px" alt="khadmi impex" style="margin-top: 8px" />
+
+                                            </a>
                                     </div>
-        >
+                                    
+                                    
+                <div class="box-cart">
+<div class="cart">
+    <form method="get" action="{{route('cart.index')}}">
+                                        
+  <button type="button" data-toggle="dropdown" data-loading-text="Loading..." class="dropdown-toggle">
+    
+    <span  class="cart-total2">0</span> </button>
+</form>
+  
+</div>
+</div>
+@include('Partials.navbar')
+
+
 
                             </div>
         </div>
 
-             @include('Partials.navbar')     
+                    
                
               
 
@@ -115,8 +114,8 @@
 
 <div class="container">
   <ul class="breadcrumb">
-		<li><a href="http://phlashtools.com/index.php?route=common/home"><i class="fa fa-home"></i></a></li>
-		<li><a href="http://phlashtools.com/index.php?route=checkout/cart">Shopping Cart</a></li>
+		<li><a href="{{route('cart.index')}}"><i class="fa fa-home"></i></a></li>
+		<li><a href="{{route('cart.index')}}">Shopping Cart</a></li>
 	  </ul>
         <div class="alert alert-danger"><i class="fa fa-exclamation-circle"></i> Minimum order amount for Microblading PenTools is 4!	<button type="button" class="close" data-dismiss="alert">&times;</button>
   </div>
@@ -202,8 +201,8 @@
 	  	  <br />
 	 
 	  <div class="buttons">
-		<div class="pull-left"><a href="" class="btn btn-default">Continue Shopping</a></div>
-		<div class="pull-right"><a href="" class="btn btn-primary">Checkout</a></div>
+		<div class="pull-left"><a href="{{route('welcome')}}" class="btn btn-default">Continue Shopping</a></div>
+		<div class="pull-right"><a href="{{route('check.out')}}" class="btn btn-primary">Checkout</a></div>
 	  </div>
 	  </div>
 	</div>

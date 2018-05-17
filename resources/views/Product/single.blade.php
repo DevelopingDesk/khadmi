@@ -45,38 +45,24 @@
 
 <div id="page">
    
-    <header class="header">
+     <header class="header">
         <div class="top_panel">
             <div class="container">
 
-                <nav id="" class="nav">
+                <nav id="top-links" class="nav">
                     <ul class="list-inline">
-                        <li class="second">
-                            <a href="{{route('welcome')}}">
-                                Homes
+                        <li class="first">
+                            <a href="/"><i
+                                    class="fa fa-home"></i><span>Home</span>
                             </a>
                         </li>
-                        <li>
-                            <a href="/" id="wishlist-total"
-                               title="Wish List (0)"><i
-                                    class="fa fa-heart"></i> <span>Wish List (0)</span></a>
-                        </li>
-                        <li class="dropdown">
-                            <a href="/" title="My Account"
-                               class="dropdown-toggle"
-                               data-toggle="dropdown"><i class="fa fa-user"></i>
-                                <span>My Account</span>
-                                <span class="fa fa-angle-down"></span></a>
-                            <ul class="dropdown-menu dropdown-menu-left">
-                                                                    <li>
-                                        <a href="">Register</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Login</a>
-                                    </li>
-                                                            </ul>
-                        </li>
+                      
                        
+                        <li>
+                            <a href="{{route('contact.us')}}" title="Shopping Cart"><i
+                                    class="fa fa-shopping-cart"></i> <span>Contact us</span>
+                            </a>
+                        </li>
                         <li>
                             <a href="{{route('cart.index')}}" title="Checkout"><i
                                     class="fa fa-share"></i> <span>Checkout</span></a>
@@ -279,7 +265,7 @@
 					<!-- AddThis Button END --> 
 					</div>
 
-											<div class="alert alert-info"><i class="fa fa-info-circle"></i> This product has a minimum quantity of 4</div>
+											
 									</div>
 
 			</div>

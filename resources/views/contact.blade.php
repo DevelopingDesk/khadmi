@@ -1,239 +1,185 @@
-<!--
-author: W3layouts
-author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
 <!DOCTYPE html>
-<html>
+
+<html dir="ltr" lang="en">
+
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
 <head>
-<title>about us</title>
-<!-- for-mobile-apps -->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="about rick finn store " />
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
-		function hideURLbar(){ window.scrollTo(0,1); } </script>
-<!-- //for-mobile-apps -->
-<link href="{{asset('smart/css/bootstrap.css')}}" rel="stylesheet" type="text/css" media="all" />
-<link href="{{asset('smart/css/style.css')}}" rel="stylesheet" type="text/css" media="all" />
-<!-- font-awesome icons -->
-<link href="{{asset('smart/css/font-awesome.css')}}" rel="stylesheet" type="text/css" media="all" /> 
-<!-- //font-awesome icons -->
-<!-- js -->
-<script src="{{asset('smart/js/jquery-1.11.1.min.js')}}"></script>
-<!-- //js -->
-<link href='//fonts.googleapis.com/css?family=Ubuntu:400,300,300italic,400italic,500,500italic,700,700italic' rel='stylesheet' type='text/css'>
-<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
-<!-- start-smoth-scrolling -->
-<script type="text/javascript" src="{{asset('smart/js/move-top.js')}}"></script>
-<script type="text/javascript" src="{{asset('smart/js/easing.js')}}"></script>
-<script type="text/javascript">
-	jQuery(document).ready(function($) {
-		$(".scroll").click(function(event){		
-			event.preventDefault();
-			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-		});
-	});
-</script>
-<!-- start-smoth-scrolling -->
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Khadmi impex</title>
+    <base />
+            <meta name="description" content="Khadmi Impex"/>
+                <meta name="keywords" content="eyelash tweezers"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <link href="{{asset('phlashtools.com/image/catalog/favicon.png')}}" rel="icon"/>
+    
+    <script src="{{asset('phlashtools.com/catalog/view/javascript/jquery/jquery-2.1.1.min.js')}}" type="text/javascript"></script>
+    <link href="{{asset('phlashtools.com/catalog/view/javascript/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet" media="screen"/>
+    <script src="{{asset('phlashtools.com/catalog/view/javascript/bootstrap/js/bootstrap.min.js')}}" type="text/javascript"></script>
+    <link href="{{asset('phlashtools.com/catalog/view/javascript/font-awesome/css/font-awesome.min.css')}}" rel="stylesheet" type="text/css"/>
+
+
+    <link href="{{asset('web/phlashtools.com/catalog/view/javascript/jquery/owl-carousel/owl.carousel.css')}}" rel="stylesheet">
+    <link href="{{asset('..web/phlashtools.com/catalog/view/theme/theme560/stylesheet/magnificent.css" rel="stylesheet')}}">
+    <link href="{{asset('..web/phlashtools.com/catalog/view/theme/theme560/js/jquery.bxslider/jquery.bxslider.css')}}" rel="stylesheet">
+    <link href="{{asset('phlashtools.com/catalog/view/theme/theme560/stylesheet/photoswipe.css')}}" rel="stylesheet">
+    <link href="{{asset('phlashtools.com/catalog/view/theme/theme560/js/fancybox/jquery.fancybox.cssv')}}" rel="stylesheet">
+    <link href="{{asset('phlashtools.com/catalog/view/theme/theme560/stylesheet/material-design.css')}}" rel="stylesheet">
+            <link href="{{asset('phlashtools.com/catalog/view/javascript/jquery/owl-carousel/owl.carousel.css')}}" type="text/css" rel="stylesheet"
+              media="screen"/>
+            <link href="{{asset('phlashtools.com/catalog/view/javascript/jquery/owl-carousel/owl.transitions.css')}}" type="text/css" rel="stylesheet"
+              media="screen"/>
+        <script src="{{asset('phlashtools.com/catalog/view/theme/theme560/js/common.js')}}" type="text/javascript"></script>
+    <script src="{{asset('..web/phlashtools.com/catalog/view/javascript/jquery/owl-carousel/owl.carousel.min.js')}}" type="text/javascript"></script>
+
+
+    <!--custom script-->
+                    <script src="{{asset('phlashtools.com/catalog/view/theme/theme560/js/device.min.js')}}" type="text/javascript"></script>
+ 
+        <link href="{{asset('phlashtools.com/catalog/view/theme/theme560/stylesheet/stylesheet.css')}}" rel="stylesheet">
 </head>
-	
-<body>
-<!-- header -->
-@include('Partials.header')
-<!-- //header -->
-<!-- products-breadcrumb -->
-	<div class="products-breadcrumb">
-		<div class="container">
-			<ul>
-				<li><i class="fa fa-home" aria-hidden="true"></i><a href="/">Home</a><span>|</span></li>
-				<li>About Us</li>
-			</ul>
-		</div>
-	</div>
-<!-- //products-breadcrumb -->
-<!-- banner -->
-	<div class="banner">
-	@include('Partials.navbar')
-		<div class="w3l_banner_nav_right">
-<!-- about -->
-			<div class="privacy about">
-			<h3>About Us</h3>
-			<div class="row">
-				<div class="col-md-12">
-					<div class="col-md-3">
-						<label style="color: red">CEO:</label>
+<body class="common-home">
 
-					</div>
-					<div class="col-md-3">
-						<label style="text-decoration: underline;">Muhammad Rizwan</label>
-					</div>
-					<div class="col-md-3">
-						<label style="text-decoration: underline;">Rizwan@rick-fin.com</label>
-					</div>
-					<div class="col-md-3">
-						<label style="text-decoration: underline;">0347 4125987</label>
-					</div>
-					<hr>
-						<div class="col-md-3">
-						<label style="color: red">Sale Manager:</label>
+<!-- swipe menu -->
 
-					</div>
-					<div class="col-md-3">
-						<label style="text-decoration: underline;">Adil Hussain</label>
-					</div>
-					<div class="col-md-3">
-						<label style="text-decoration: underline;">info@rick-fin.com</label>
-					</div>
-					<div class="col-md-3">
-						<label style="text-decoration: underline;">0317 7371971</label>
-					</div>
-				</div>
-				
-			</div>
-			
-		</div>
-<!-- //about -->
-		</div>
-		<div class="clearfix"></div>
-	</div>
-<!-- //banner -->
-<!-- team -->
-	
-<!-- //team -->
-<!-- testimonials -->
-	<div class="testimonials">
-		<div class="container">
-			<h3>Quick Contacts</h3>
-				<div class="w3_testimonials_grids">
-					<div class="wmuSlider example1 animated wow slideInUp" data-wow-delay=".5s">
-						<div class="wmuSliderWrapper">
-							<article style="position: absolute; width: 100%; opacity: 0;"> 
-								<div class="banner-wrap">
-									<div class="col-md-6 w3_testimonials_grid">
-										<p></p>
-										<h4>Phone: <span>+92 347-4125987</span></h4>
-									</div>
-									<div class="col-md-6 w3_testimonials_grid">
-										<p></i></p>
-										<h4>Tel<span> +92 317-7371971</span></h4>
-									</div>
-									<div class="clearfix"> </div>
-								</div>
-							</article>
-							<article style="position: absolute; width: 100%; opacity: 0;"> 
-								<div class="banner-wrap">
-									<div class="col-md-6 w3_testimonials_grid">
-										<p></i></p>
-										<h4>Compnay Address:<span>Malkay Kallan , Sialkot, Pakistan
-Pakistan</span></h4>
-									</div>
-									<div class="col-md-6 w3_testimonials_grid">
-										<p></i></p>
-										<h4>Office Address: <span>Malkay Kallan , Sialkot, Pakistan
-Pakistan
-</span></h4>
-									</div>
-									<div class="clearfix"> </div>
-								</div>
-							</article>
-							<article style="position: absolute; width: 100%; opacity: 0;"> 
-								<div class="banner-wrap">
-									<div class="col-md-6 w3_testimonials_grid">
-										<p>.</p>
-										<h4>Email: <span>info@rick-finn.com</span></h4>
-									</div>
-									<div class="col-md-6 w3_testimonials_grid">
-										
-										<h4>Compnay Mail:<span>info@rick-finn.com</span></h4>
-									</div>
-									<div class="clearfix"> </div>
-								</div>
-							</article>
-						</div>
-					</div>
-					<script src="{{asset('smart/js/jquery.wmuSlider.js')}}"></script> 
-					<script>
-						$('.example1').wmuSlider();         
-					</script> 
-				</div>
-		</div>
-	</div>
-<!-- //testimonials -->
-<!-- newsletter -->
-	<div class="newsletter">
-		<div class="container">
-			<div class="w3agile_newsletter_left">
-				<h3>sign up for our newsletter</h3>
-			</div>
-			<div class="w3agile_newsletter_right">
-				<form action="#" method="post">
-					<input type="email" name="Email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
-					<input type="submit" value="subscribe now">
-				</form>
-			</div>
-			<div class="clearfix"> </div>
-		</div>
-	</div>
-<!-- //newsletter -->
-<!-- footer -->
-	@include('Partials.footer')
-<!-- //footer -->
-<!-- Bootstrap Core JavaScript -->
-<script src="{{asset('smart/js/bootstrap.min.js')}}"></script>
-<script>
-$(document).ready(function(){
-    $(".dropdown").hover(            
-        function() {
-            $('.dropdown-menu', this).stop( true, true ).slideDown("fast");
-            $(this).toggleClass('open');        
-        },
-        function() {
-            $('.dropdown-menu', this).stop( true, true ).slideUp("fast");
-            $(this).toggleClass('open');       
-        }
-    );
-});
-</script>
-<!-- here stars scrolling icon -->
-	<script type="text/javascript">
-		$(document).ready(function() {
-			/*
-				var defaults = {
-				containerID: 'toTop', // fading element id
-				containerHoverID: 'toTopHover', // fading element hover id
-				scrollSpeed: 1200,
-				easingType: 'linear' 
-				};
-			*/
-								
-			$().UItoTop({ easingType: 'easeOutQuart' });
-								
-			});
-	</script>
-<!-- //here ends scrolling icon -->
-<script src="js/minicart.js"></script>
-<script>
-		paypal.minicart.render();
+<div id="page">
+    <div class="toprow-1">
+        <a class="swipe-control" href="#"><i class="fa fa-align-justify"></i></a>
+    </div>
 
-		paypal.minicart.cart.on('checkout', function (evt) {
-			var items = this.items(),
-				len = items.length,
-				total = 0,
-				i;
+    <header class="header">
+        <div class="top_panel">
+            <div class="container">
 
-			// Count the number of each item in the cart
-			for (i = 0; i < len; i++) {
-				total += items[i].get('quantity');
-			}
+                <nav id="top-links" class="nav">
+                    <ul class="list-inline">
+                        <li class="first">
+                            <a href="/"><i
+                                    class="fa fa-home"></i><span>Home</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/" id="wishlist-total"
+                               title="Wish List (0)"><i
+                                    class="fa fa-heart"></i> <span>Wish List (0)</span></a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="/" title="My Account"
+                               class="dropdown-toggle"
+                               data-toggle="dropdown"><i class="fa fa-user"></i>
+                                <span>My Account</span>
+                                <span class="fa fa-angle-down"></span></a>
+                            <ul class="dropdown-menu dropdown-menu-left">
+                                                                    <li>
+                                        <a href="">Register</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Login</a>
+                                    </li>
+                                                            </ul>
+                        </li>
+                        <li>
+                            <a href="{{route('contact.us')}}" title="Shopping Cart"><i
+                                    class="fa fa-shopping-cart"></i> <span>Contact us</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{route('cart.index')}}" title="Checkout"><i
+                                    class="fa fa-share"></i> <span>Checkout</span></a>
+                        </li>
+                    </ul>
+                </nav>
+                <div id="search" class="search">
+  <input type="text" name="search" value="" placeholder="Search"  />
+  <button type="button" class="button-search"></button>
+</div>                <div class="box-currency">
 
-			if (total < 3) {
-				alert('The minimum order quantity is 3. Please add more to your shopping cart before checking out');
-				evt.preventDefault();
-			}
-		});
+</div>
+            </div>
+        </div>
 
-	</script>
+        <div class="menu-wrap">
+            <div class="container">
+                <div id="logo" class="logo">
+                                            <a href="/">
+                                                
+<img src="{{asset('txtlogo.png')}}" height="50px" width="200px" alt="khadmi impex" style="margin-top: 8px" />
+
+                                            </a>
+                                    </div>
+                                    
+                                    
+                <div class="box-cart">
+<div class="cart">
+    <form method="get" action="{{route('cart.index')}}">
+                                        
+  <button type="button" data-toggle="dropdown" data-loading-text="Loading..." class="dropdown-toggle">
+    
+    <span  class="cart-total2">0</span> </button>
+</form>
+  
+</div>
+</div>
+@include('Partials.navbar')
+
+
+
+                            </div>
+        </div>
+
+                    
+               
+              
+
+    </header>
+
+
+
+
+      <div class="header_modules"></div>
+      
+<div id="container">
+    <center><h2>CONTACT US</h2></center>
+    <br>
+<div class="row">
+    <div class="col-md-12">
+        <div class="col-md-3">
+            <center><h3 style="color: lightblue">Pakistan Office</h3></center>
+            <br>
+            Address:kotli,Behram Sialkot<br>
+            Contact:0322-7430655<br>
+            Director:Awais Ahmed<br>
+            Email:
+        </div>
+        <div class="col-md-3">
+            <center><h3 style="color: lightblue">Dubai Office</h3></center><br>
+           <center>
+            Marketting Director:Bilal  Ahmed<br>
+            Contact:+971-567415282<br>
+         
+            Email:
+            </center>
+        </div>
+        <div class="col-md-3">
+            <center><h3 style="color: lightblue">United kindom Office</h3></center><br>
+            Sales Exective: Waqas Ahmed<br>
+            Contact us : +44-7833471414
+        </div>
+        <div class="col-md-3">
+            <center><h3 style="color: lightblue">Social Links</h3></center>
+            
+        </div>
+    </div>
+</div>
+
+ </div>
+<div class="content_bottom">
+      </div>
+@include('Partials.footer')
+<script src="{{asset('phlashtools.com/catalog/view/theme/theme560/js/livesearch.js')}}" type="text/javascript"></script>
+<script src="{{asset('phlashtools.com/catalog/view/theme/theme560/js/script.js')}}" type="text/javascript"></script>
+</div>
+
 </body>
+<!-- Mirrored from www.phlashtools.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 08 May 2018 08:55:14 GMT -->
 </html>

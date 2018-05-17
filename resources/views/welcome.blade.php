@@ -43,9 +43,7 @@
 <!-- swipe menu -->
 
 <div id="page">
-    <div class="toprow-1">
-        <a class="swipe-control" href="#"><i class="fa fa-align-justify"></i></a>
-    </div>
+    
 
     <header class="header">
         <div class="top_panel">
@@ -58,29 +56,11 @@
                                     class="fa fa-home"></i><span>Home</span>
                             </a>
                         </li>
+                      
+                       
                         <li>
-                            <a href="/" id="wishlist-total"
-                               title="Wish List (0)"><i
-                                    class="fa fa-heart"></i> <span>Wish List (0)</span></a>
-                        </li>
-                        <li class="dropdown">
-                            <a href="/" title="My Account"
-                               class="dropdown-toggle"
-                               data-toggle="dropdown"><i class="fa fa-user"></i>
-                                <span>My Account</span>
-                                <span class="fa fa-angle-down"></span></a>
-                            <ul class="dropdown-menu dropdown-menu-left">
-                                                                    <li>
-                                        <a href="">Register</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Login</a>
-                                    </li>
-                                                            </ul>
-                        </li>
-                        <li>
-                            <a href="" title="Shopping Cart"><i
-                                    class="fa fa-shopping-cart"></i> <span>Shopping Cart</span>
+                            <a href="{{route('contact.us')}}" title="Shopping Cart"><i
+                                    class="fa fa-shopping-cart"></i> <span>Contact us</span>
                             </a>
                         </li>
                         <li>
@@ -213,7 +193,7 @@
                 <div class="banner-4">
             <div class="banner-box">
                 <a class="clearfix" href="">
-                    <img src="phlashtools.com/image/cache/catalog/banners/banner8-580x560.png" alt="banner-4"
+                    <img src="http://www.interpak.co.uk/media/1204855/instrument_packaging_01.jpg" alt="banner-4"
                          class="img-responsive"/>
                                             <div class="s-desc"><div class="vert-align"><h2>Packings</h2>
 <h3>collection</h3></div></div>

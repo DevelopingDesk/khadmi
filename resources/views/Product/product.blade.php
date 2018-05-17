@@ -49,203 +49,84 @@
 <body class="product-category-33_54">
 <p id="gl_path" class="hidden">theme560</p>
 <!-- swipe menu -->
-<div class="swipe">
-    <div class="swipe-menu">
-        <ul>
 
-            <li>
-                <a href="{{route('welcome')}}" title="My Account"><i class="fa fa-user"></i>
-                    <span>My Account</span></a>
-            </li>
-                            <li>
-                    <a href="{{route('welcome')}}"><i class="fa fa-user"></i> Register</a>
-                </li>
-                <li>
-                    <a href="{{route('welcome')}}"><i class="fa fa-lock"></i>Login</a>
-                </li>
-                        <li>
-                <a href="{{route('welcome')}}" id="wishlist-total2" title="Wish List (0)"><i
-                        class="fa fa-heart"></i> <span>Wish List (0)</span>
-                </a>
-            </li>
-            <li>
-                <a href="{{route('welcome')}}" title="Shopping Cart"><i
-                        class="fa fa-shopping-cart"></i> <span>Shopping Cart</span></a>
-            </li>
-            <li>
-                <a href="{{route('welcome')}}" title="Checkout"><i class="fa fa-share"></i>
-                    <span>Checkout</span></a>
-            </li>
-        </ul>
-                    <ul class="foot">
-                                                            <li>
-                            <a href="{{route('welcome')}}">About Us</a>
-                        </li>
-                                            <li>
-                            <a href="{{route('welcome')}}">Refund Policy</a>
-                        </li>
-                                            <li>
-                            <a href="{{route('welcome')}}">Terms &amp; Conditions</a>
-                        </li>
-                                            <li>
-                            <a href="{{route('welcome')}}">Return Policy</a>
-                        </li>
-                                                </ul>
-                <ul class="foot foot-1">
-            <li>
-                <a href="{{route('welcome')}}">Contact Us</a>
-            </li>
-            <li>
-                <a href="{{route('welcome')}}">Returns</a>
-            </li>
-            <li>
-                <a href="{{route('welcome')}}">Site Map</a>
-            </li>
-        </ul>
-
-        <ul class="foot foot-2">
-            <li>
-                <a href="{{route('welcome')}}">Brands</a>
-            </li>
-            <li>
-                <a href="{{route('welcome')}}">Gift Vouchers</a>
-            </li>
-            <li>
-                <a href="{{route('welcome')}}">Affiliates</a>
-            </li>
-            <li>
-                <a href="{{route('welcome')}}">Specials</a>
-            </li>
-        </ul>
-        <ul class="foot foot-3">
-            <li>
-                <a href="{{route('welcome')}}">Order History</a>
-            </li>
-            <li>
-                <a href="{{route('welcome')}}">Newsletter</a>
-            </li>
-        </ul>
-    </div>
-</div>
 <div id="page">
-    <div class="toprow-1">
-        <a class="swipe-control" href="#"><i class="fa fa-align-justify"></i></a>
-    </div>
+    
 
-    <header class="header">
+     <header class="header">
         <div class="top_panel">
             <div class="container">
 
                 <nav id="top-links" class="nav">
                     <ul class="list-inline">
                         <li class="first">
-                            <a href="{{route('welcome')}}"><i
+                            <a href="/"><i
                                     class="fa fa-home"></i><span>Home</span>
                             </a>
                         </li>
+                      
+                       
                         <li>
-                            <a href="{{route('welcome')}}" id="wishlist-total"
-                               title="Wish List (0)"><i
-                                    class="fa fa-heart"></i> <span>Wish List (0)</span></a>
-                        </li>
-                        <li class="dropdown">
-                            <a href="{{route('welcome')}}" title="My Account"
-                               class="dropdown-toggle"
-                               data-toggle="dropdown"><i class="fa fa-user"></i>
-                                <span>My Account</span>
-                                <span class="fa fa-angle-down"></span></a>
-                            <ul class="dropdown-menu dropdown-menu-left">
-                                                                    <li>
-                                        <a href="{{route('welcome')}}">Register</a>
-                                    </li>
-                                    <li>
-                                        <a href="{{route('welcome')}}">Login</a>
-                                    </li>
-                                                            </ul>
-                        </li>
-                        <li>
-                            <a href="{{route('welcome')}}"><i
-                                    class="fa fa-shopping-cart"></i> <span>Shopping Cart</span>
+                            <a href="{{route('contact.us')}}" title="Shopping Cart"><i
+                                    class="fa fa-shopping-cart"></i> <span>Contact us</span>
                             </a>
                         </li>
                         <li>
-                            <a href="{{route('welcome')}}"><i
+                            <a href="{{route('cart.index')}}" title="Checkout"><i
                                     class="fa fa-share"></i> <span>Checkout</span></a>
                         </li>
                     </ul>
                 </nav>
                 <div id="search" class="search">
-	<input type="text" name="search" value="" placeholder="Search"  />
-	<button type="button" class="button-search"></button>
-</div>               
-               
+  <input type="text" name="search" value="" placeholder="Search"  />
+  <button type="button" class="button-search"></button>
+</div>                <div class="box-currency">
+
+</div>
             </div>
         </div>
 
         <div class="menu-wrap">
             <div class="container">
                 <div id="logo" class="logo">
-                                            <a href="{{route('welcome')}}"><img src="http://phlashtools.com/image/catalog/logo/logo2.png" title="PH LASH TOOLS"
-                                                            alt="PH LASH TOOLS" class="img-responsive"/></a>
-                                    </div>
-                <div class="box-cart">
-<div id="cart" class="cart">
-	<button type="button" data-toggle="dropdown" data-loading-text="Loading..." class="dropdown-toggle">
-		<i class="material-design-shopping231"></i>
-		<span id="cart-total2" class="cart-total2">1</span>	</button>
-  <ul class="dropdown-menu pull-right">
-		<li>
-		<div>
-	  <table class="table">
-				<tr>
-		  <td class="text-center">			<div class="image"><a href="http://phlashtools.com/index.php?route=product/product&amp;product_id=107"><img src="http://phlashtools.com/image/cache/catalog/Products/microblading/pentool/DSC_0049-47x47.jpg" alt="Microblading PenTools" title="Microblading PenTools" class="img-thumbnail" /></a></div>
-			</td>
-		  <td class="text-left">
-			<div class="name"><a href="http://phlashtools.com/index.php?route=product/product&amp;product_id=107">Microblading PenTools</a></div>
-									<div> x 1  <span class="price-cart">$5.99</span></div>
-			</td>
-		  
-		  <td class="text-right"></td>
-		  <td class="text-center"><button type="button" onclick="cart.remove('YToxOntzOjEwOiJwcm9kdWN0X2lkIjtpOjEwNzt9');" title="Remove" class="btn btn-danger btn-xs"><i class="fa fa-times"></i></button></td>
-		</tr>
-					  </table>
-		</div>
-	</li>
-	<li>
-	  <div>
-		<table class="table total">
-		  		  <tr>
-			<td class="text-right"><strong>Sub-Total</strong></td>
-			<td class="text-right">$5.99</td>
-		  </tr>
-		  		  <tr>
-			<td class="text-right"><strong>Total</strong></td>
-			<td class="text-right">$5.99</td>
-		  </tr>
-		  		</table>
-		<p class="text-right">
-			<a class="btn btn-primary" href="http://phlashtools.com/index.php?route=checkout/cart"><!--<i class="fa fa-shopping-cart"></i>--> View Cart</a>
-			<a class="btn btn-primary" href="http://phlashtools.com/index.php?route=checkout/checkout"><!--<i class="fa fa-share"></i>--> Checkout</a></p>
-	  </div>
-	</li>
-	  </ul>
-</div>
-</div>
+                                            <a href="/">
+                                                
+<img src="{{asset('txtlogo.png')}}" height="50px" width="200px" alt="khadmi impex" style="margin-top: 8px" />
 
-                               @include('partials.navbar')
+                                            </a>
+                                    </div>
+                                    
+                                    
+                <div class="box-cart">
+<div class="cart">
+    <form method="get" action="{{route('cart.index')}}">
+                                        
+  <button type="button" data-toggle="dropdown" data-loading-text="Loading..." class="dropdown-toggle">
+    
+    <span  class="cart-total2">0</span> </button>
+</form>
+  
+</div>
+</div>
+@include('Partials.navbar')
+
+
+
                             </div>
         </div>
 
+                    
+               
+              
 
     </header>
-
 
 
 <div class="container">
   <ul class="breadcrumb">
 		<li><a href="{{route('welcome')}}"><i class="fa fa-home"></i></a></li>
-		<li><a href="">EyeLash Tweezers</a></li>
-		<li><a href="">Curved Tip Tweezers</a></li>
+		<li><a href="">EyeLash </a></li>
+		
 	  </ul>
   <div class="row"><aside id="column-left" class="col-sm-3 ">
     <div class="box account info">
@@ -254,19 +135,19 @@
 	</div>
 	<div class="box-content">
 		<ul>
-						<li><a href="" >Login</a></li>
-			<li><a href="" >Register</a></li>
-			<li><a href="http://phlashtools.com/index.php?route=account/forgotten" >Forgotten Password</a></li>
-						<li><a href="" >My Account</a></li>
-						<li><a href="" >Address Books</a></li>
-			<li><a href="" >Wish List</a> </li>
-			<li><a href="" >Order History</a> </li>
-			<li><a href="" >Downloads</a></li>
-			<li><a href="" >Reward Points</a></li>
-			<li><a href="http://phlashtools.com/index.php?route=account/return" >Returns</a></li>
-			<li><a href="http://phlashtools.com/index.php?route=account/transaction" >Transactions</a> </li>
-			<li><a href="http://phlashtools.com/index.php?route=account/newsletter" >Newsletter</a></li>
-			<li><a href="http://phlashtools.com/index.php?route=account/recurring" >Recurring payments</a></li>
+						<li><a href="{{route('welcome')}}" >Login</a></li>
+			<li><a href="{{route('welcome')}}" >Register</a></li>
+			<li><a href="{{route('welcome')}}" >Forgotten Password</a></li>
+						<li><a href="{{route('welcome')}}" >My Account</a></li>
+						<li><a href="{{route('welcome')}}" >Address Books</a></li>
+			<li><a href="{{route('welcome')}}" >Wish List</a> </li>
+			<li><a href="{{route('welcome')}}" >Order History</a> </li>
+			<li><a href="{{route('welcome')}}" >Downloads</a></li>
+			<li><a href="{{route('welcome')}}" >Reward Points</a></li>
+			<li><a href="{{route('welcome')}}" >Returns</a></li>
+			<li><a href="{{route('welcome')}}" >Transactions</a> </li>
+			<li><a href="{{route('welcome')}}" >Newsletter</a></li>
+			<li><a href="{{route('welcome')}}" >Recurring payments</a></li>
 					</ul>
 	</div>
 </div>
@@ -282,21 +163,21 @@
                     <div class="image">
                         <a class="lazy"
                            style="padding-bottom: 100%"
-                           href="http://phlashtools.com/index.php?route=product/product&amp;product_id=105">
-                            <img alt="Russian Volume 75° Tweezers"
-                                 title="Russian Volume 75° Tweezers"
+                           href="">
+                            <img alt="Russian Volume 75° EyeLash Mirror"
+                                 title="Russian Volume 75° EyeLash Mirro"
                                  class="img-responsive"
-                                 data-src="http://phlashtools.com/image/cache/catalog/Products/Volume Tweezers/PLT-606-270x270.png"
+                                 data-src="http://ak2.picdn.net/shutterstock/videos/16030012/thumb/1.jpg"
                                  src="#"/>
                         </a>
                     </div>
                     <div class="caption">
                         <div class="name" data-equal-group="2">
-                            <a href="http://phlashtools.com/index.php?route=product/product&amp;product_id=105">Russian Volume 75° Tweezers</a>
+                            <a href="">EyeLashes Mirror</a>
                         </div>
 
                                                     <div class="price">
-                                                                    $9.99                                                                                            </div>
+                                                                    $comming soon                                                                                           </div>
                                             </div>
                     <div class="cart-button">
                         <button class="product-btn-add" type="button"
@@ -347,7 +228,7 @@
 			<div class="pull-left"></div>
 			<div class="pull-left nam-page">Showing 1 to 6 of 6 (1 Pages)</div>
 			<div class="pull-right">
-				<a href="http://phlashtools.com/index.php?route=product/compare" id="compare-total" class="btn">
+				<a href="{{route('welcome')}}" class="btn">
 					Product Compare (0)				</a>
 			</div>
 		</div>
